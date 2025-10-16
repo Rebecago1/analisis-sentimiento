@@ -6,11 +6,13 @@ En una primera etapa, se han configurado clasificadores lineales con ponderacion
 
 Posteriormente, se han entrenado modelos basados en redes neuronales (RNN y LSTM) con distintas variantes, como mecanismos de atención y arquitecturas multientrada, combinadas, asimismo, con características léxicas.
 
-Finalmente, se han evaluado modelos de aprendizaje transferido basados en Transformers, en concreto, se ha realizado *fine-tuning* sobre el modelo RoBERTa(*Robustly Optimized BERT Approach)* base, con distintas combinaciones de hiperparámetros como la tasa de aprendizaje, el número de épocas y la penalización por regularización.
+Finalmente, se han evaluado modelos de aprendizaje transferido basados en Transformers, en concreto, se ha realizado *fine-tuning* sobre el modelo RoBERTa(*Robustly Optimized BERT Approach)* base, con distintas combinaciones de hiperparámetros como la tasa de aprendizaje, el número de épocas y la penalización por regularización. 
+
+Parte del código base ha sido proporcionado por el profesor Nicolás José Fernández Martínez de la asignatura *Análisis de Sentimientos, afecto y connotación* perteneciente al Máster en Procesamiento del Lenguaje y aplicaciones de la IA a la Lingüística, de la Universidad de La Rioja
 
 ---
 
-## Librerías principales
+## Librerías principales:
 
 - `nltk`
 - `scikit-learn`
